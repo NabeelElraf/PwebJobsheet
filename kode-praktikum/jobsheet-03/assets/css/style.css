@@ -200,8 +200,8 @@ footer {
 
 /* ===== Responsive Breakpoints ===== */
 
-/* Tablet ke bawah */
-@media (max-width: 768px) {
+/* Tablet ke bawah (Exercise 2: batas diubah menjadi 900px) */
+@media (max-width: 900px) {
     main section:nth-of-type(2) {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -240,5 +240,12 @@ footer {
     form input,
     form select {
         max-width: 100%;
+    }
+}
+
+/* Monitor Lebar (Exercise 1: min-width 1400px) */
+@media (min-width: 1400px) {
+    main {
+        max-width: 1200px;
     }
 }
